@@ -81,7 +81,7 @@ function App() {
   return (
     <div className="App">
       <h1>welcome</h1>
-      {/* <header className="App-header">
+ 
         <div>
           {payment && (
             <div>
@@ -91,7 +91,7 @@ function App() {
             </div>
           )}
         </div>
-      </header> */}
+
 
       <Products products={products} buyNow={buyNow} />
     </div>
